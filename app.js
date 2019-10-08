@@ -15,7 +15,7 @@ app.set('views', path.join( __dirname + "/views"));
 
 
 app.get('/', (req, res) => {
-  res.render('home', { specs: "Wanna know my specs?", information: "working!" })
+  res.render('home', { specs: "Wanna know my specs?", information: "Here's the informations!" })
 })
 
 app.get('/', (req, res) => {
@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
       if (err) { return console.log (err.message); }
       console.log(rows);
 
-      res.render('user', rows[7]);
+      res.render('home', rows[7]);
     })
   })
 
