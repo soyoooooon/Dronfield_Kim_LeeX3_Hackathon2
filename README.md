@@ -24,6 +24,7 @@ Clone this to the location of your choice, open in your favourite editor and hac
 # Technical Specs
 
 ## Features
+
 Height: 14cm
 
 Weight: 180g
@@ -34,11 +35,12 @@ Screen Wideness: 15cm
 
 Screen Weight: 80g
 
-Display: 12 X 6cm
+Display: 24-bit color LED
 
 Materials: Plastic and glass
 
 ## Sensors
+
 Time
 
 Dates
