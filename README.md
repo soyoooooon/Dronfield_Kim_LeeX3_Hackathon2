@@ -21,9 +21,9 @@ Clone this to the location of your choice, open in your favourite editor and hac
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## Technical Spec
+# Technical Spec
 
-# Features
+## Features
 Height: 14cm
 Weight: 180g
 Thickness: 2cm
@@ -32,7 +32,7 @@ Screen Weight: 80g
 Display: 12 X 6cm
 Materials: Plastic and glass
 
-# Sensors
+## Sensors
 Time
 Dates
 Temperature
@@ -40,7 +40,7 @@ Humidity
 Occupancy
 Ambient light
 
-# Language
+## Language
 
 English
 French
@@ -48,12 +48,12 @@ Korean
 Spanish
 Indian
 
-# Color 
+## Color 
 White, Black
 Mat Black, Black
 Grey, Black
 
-# Wireless
+## Wireless
 802.11 a/b/g/n (2.4 GHz/ 5 GHz) Wi-Fi
 802.15.4(2.4GHz)
 Bluetooth
