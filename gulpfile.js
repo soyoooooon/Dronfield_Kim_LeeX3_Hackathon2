@@ -5,7 +5,7 @@ function compile(done) {
     gulp.src('./sass/**/*.scss')
     .pipe(sass())
     .on('error', sass.logError)
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('./public/css'))
     done()
 }
 
