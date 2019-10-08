@@ -57,11 +57,12 @@ English
 
 French
 
+Indian
+
 Korean
 
 Spanish
 
-Indian
 
 ## Color 
 
