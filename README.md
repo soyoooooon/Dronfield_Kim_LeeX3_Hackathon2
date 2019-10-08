@@ -95,7 +95,7 @@ First Version Created October 7, 2019.
 
 4. [Soyoon Lee](s_lee77176@fanshaweonline.ca) - Front End Dev
 
- 5 [Sujin Lee](s_lee39@fanshaweonline.ca) - Video / Motion
+5. [Sujin Lee](s_lee39@fanshaweonline.ca) - Video / Motion
 
 
 
