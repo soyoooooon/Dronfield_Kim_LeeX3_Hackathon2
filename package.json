@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gahyunlee23/IntroToNode.git"
+    "url": "git+https://github.com/Gahyunlee23/dronfield_kimlLeex3_hackathon2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Gahyunlee23/IntroToNode/issues"
+    "url": "https://github.com/Gahyunlee23/dronfield_kim_leex3_hackathon2/issues"
   },
-  "homepage": "https://github.com/Gahyunlee23/IntroToNode#readme",
+  "homepage": "https://github.com/Gahyunlee23/dronfield_kim_leex3_hackathon2#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.0.5",
