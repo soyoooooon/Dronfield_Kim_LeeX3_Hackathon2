@@ -21,7 +21,7 @@ Clone this to the location of your choice, open in your favourite editor and hac
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-# Technical Spec
+# Technical Specs
 
 ## Features
 Height: 14cm
