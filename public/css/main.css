@@ -1,2 +1,2 @@
-@font-face{font-family:"Roboto";src:url("../public/css/Roboto-Regular.woff"),"../public/css/Roboto-Regular.woff2"}main{margin:0 auto}h2{color:blueviolet}
+.wrapper{margin:0 auto;max-width:100%}.mainHeader{width:375px;height:150px;background-color:#D0CFCE}.mainHeader img{display:block;margin:0 auto;padding-top:43px;width:205px;height:65px}.mainFooter{width:375px;height:125px;background-color:#D7D7D7}.mainFooter img{display:block;margin:0 auto;width:30px;height:30px}.socialIcons{display:flex;margin:0 auto;width:165px;height:30px}
 /*# sourceMappingURL=main.css.map */
