@@ -1,8 +1,13 @@
-header{
+.mainHeader {
     width: 100%;
-    height: 10vh;
-    background-color:$m-grey;
+    height: 150px;
+    background-color: $m-grey;
 
 
-    img{width:297px; height: 64px;}
-}
+ img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 43px;
+    width: 40%;
+    height: 100px;
+}}
