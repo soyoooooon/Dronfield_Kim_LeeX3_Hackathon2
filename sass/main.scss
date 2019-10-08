@@ -1,38 +1,243 @@
 @import '_vars';
 
+
+// @font-face {
+//     font-family: "Roboto";
+//     src: url("../css/DIN-MediumAlternate.woff"),
+//          url("../css/DIN-MediumAlternate.woff2");
+// }
+
+
 .wrapper {margin: 0 auto; max-width: 100%;}
 
-.mainHeader {
-    width: 375px;
-    height: 150px;
-    background-color: $m-grey;
+//Mobile first
+@media screen and (max-width: 375px) {
+
+
+    
+
+
+@import 'modules/_navbar.scss';
+
+
+#video{
+max-width: 100%; height: 211px;
+
+img {width: 100%; height: 211px;}
+
 }
 
-.mainHeader img {
-    display: block;
-    margin: 0 auto;
-    padding-top: 43px;
-    width: 205px;
-    height: 65px;
+#product{
+background-color: $m-grey;
+width: 100%;
+height: 328px;
+
+h2 {text-align: center; font-size: 30px; line-height: 30px; letter-spacing: 3px; color:$m-font;}
+
+p {color: $m-font; font-size: 12px; line-height: 15px; text-align: center; margin-bottom: 24px;}
 }
 
-.mainFooter {
-    width: 375px;
-    height: 125px;
-    background-color: #D7D7D7;
+.img-sec{
+
+    img{ width: 100%; height: 375px;}
+
 }
 
-.mainFooter img {
-    display: block;
-    margin: 0 auto;
-    width: 30px;
-    height: 30px;
+
+#pro-sec{
+    background-color: $m-white;
+    
+    h2{font-size: 35px; line-height: 70px; color:$m-font; text-align: center; margin-top: 125px;}
+    p{font-size: 21px; line-height: 25px; color:$m-font; text-align: center; margin-bottom: 103px; margin-top: 40px;}
 }
 
-.socialIcons {
-    display: flex;
-    margin: 0 auto;
-    width: 165px;
-    height: 30px;
+.img-pro{
+    img{width: 100%; width: 375px;}
 }
+
+
+
+@import 'modules/_footer.scss';
+
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 768px){
+
+    @import 'modules/_navbar.scss';
+
+
+    #video{
+        max-width: 100%; height: 432px;
+        
+        img {width: 100%; height: 432px;} }
+        
+     #product{
+        background-color: $m-grey;
+        width: 100%;
+        height: 672px;
+        
+        h2 {text-align: center; font-size: 56px; line-height: 40px; letter-spacing: 3px; color:$m-font;}
+        
+        p {color: $m-font; font-size: 21px; line-height: 25px; text-align: center; margin-bottom: 24px;}
+        }
+        //product section ends
+
+        #for-web {display: flex; flex-direction: row; width: 100%;
+
+            .img-sec{ width: 50%; height: 384px; 
+                img { width: 100%; height: 100%;}}
+     
+        
+            .pro-sec{background-color: $m-white; width: 50%;
+            
+            h2{font-size: 35px; line-height: 70px; color:$m-font; text-align: center; margin-top: 133px;}
+            p{font-size: 21px; line-height: 25px; color:$m-font; text-align: center;  margin-top: 41px; margin-bottom: 104px;}
+        }}
+
+
+    #contact{display: flex; flex-direction: row; width: 100%; height:100%;}
+    
+    .cont-info{ background-color: $m-white; width: 50%;}
+        h2{font-size: 40px; line-height: 50px; color:$m-font; text-align: center; padding-top:20vh;}
+        p{font-size: 30px; line-height: 45px; color:$m-font; text-align: center; padding-top:5vh;} 
+            
+                .cont-img{ width: 50%; height: 50%;}
+                    img { width: 100%; height: 100%;}
+
+
+#easy-to{display:flex; flex-direction: row; width: 100%; height: 100%;
+        .easy-text{width: 50%;}
+            h2{font-size: 65px; color:black;}
+
+img{width: 60%;}
+}
+    
+        
+} // tablet size ends
+
+
+@media screen and (min-width: 769px) {
+
+    @import 'modules/_navbar.scss';
+
+
+    #video{
+        max-width: 100%; height: 720px;
+        
+        img {width: 100%; height: 720px;}}
+        
+    #product{
+        background-color: #c6c6c6;
+        width: 100%;
+        height: 100%;
+        
+        img{width: 100%; height: 720px;}
+        
+        h2 {text-align: center; font-size: 80px; line-height: 40px; letter-spacing: 3px; color:$m-font;}
+        
+        p {color: $m-font; font-size: 30px; line-height: 25px; text-align: center; padding-top: 99px; padding-bottom:130px;}}
+
+        //product section ends//
+        
+     #for-web {display: flex; flex-direction: row; width: 100%; height: 100%;}
+
+        .img-sec{ width: 50%; height: 50%;}
+            img { width: 100%; height: 100%;}
+     
+    
+        .pro-sec{background-color: $m-white; width: 50%;}
+        
+        h2{font-size: 50px; line-height: 70px; color:$m-font; text-align: center; padding-top:20vh;}
+        p{font-size: 21px; line-height: 25px; color:$m-font; text-align: center; padding-top:5vh; }
+        // for-web section ends//
+
+    #contact{display: flex; flex-direction: row; width: 100%; height:100%;}
+    
+        .cont-info{ background-color: $m-white; width: 50%;}
+            h2{font-size: 40px; line-height: 50px; color:$m-font; text-align: center; padding-top:20vh;}
+            p{font-size: 30px; line-height: 45px; color:$m-font; text-align: center; padding-top:5vh;} 
+                
+                    .cont-img{ width: 50%; height: 50%;}
+                        img { width: 100%; height: 100%;}
+
+ // easy-section 마진이 떠요 이것좀 봐줄래요? 
+    #easy-to{display:flex; flex-direction: row; width: 100%; height: 100%;
+            .easy-text{width: 50%;}
+                h2{font-size: 65px; color:black;}
+                img{width: 60%;}
+     }
+
+
+     //mysql will be here
+    #tech-spec{display:flex; flex-wrap: wrap;
+        .feature{width:350px;
+                 height: 250px;
+                 color: $m-white;
+                 border: red solid 2px;
+            img{width: 51px; height: 51px;}
+            h2{font-size: 20px;
+                color: $m-font;
+                margin-top: -150px;}
+         p{font-size: 17px; color: $m-font;}
+        }
+
+ .sensors{width:350px;
+            height: 250px;
+            color: $m-white;
+            border: red solid 2px;
+       img{width: 51px; height: 51px;}
+       h2{font-size: 20px;
+           color: $m-font;
+           margin-top: -150px;}
+    p{font-size: 17px; color: $m-font;}
+   }
+
+    .language{width:350px;
+    height: 250px;
+    color: $m-white;
+    border: red solid 2px;
+    img{width: 51px; height: 51px;}
+    h2{font-size: 20px;
+    color: $m-font;
+    margin-top: -150px;}
+    p{font-size: 17px; color: $m-font;}
+    }
+
+
+    .colour{width:350px;
+     height: 250px;
+    color: $m-white;
+    border: red solid 2px;
+    img{width: 51px; height: 51px;}
+    h2{font-size: 20px;
+    color: $m-font;
+    margin-top: -150px;}
+    p{font-size: 17px; color: $m-font;}
+    }
+
+
+    .wireless{width:350px;
+        height: 250px;
+       color: $m-white;
+       border: red solid 2px;
+       img{width: 51px; height: 51px;}
+       h2{font-size: 20px;
+       color: $m-font;
+       margin-top: -150px;}
+       p{font-size: 17px; color: $m-font;}
+       }
+
+    }//tech section
+            
+}
+//desktop media query
+    
+    
+    
+    
+    
+    
+        
+
 
