@@ -1,8 +1,6 @@
 @import '_vars';
 
 
-
-
 .wrapper {margin: 0 auto; max-width: 100%;}
 
 //Mobile first
@@ -311,11 +309,12 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
         .tech-h2{font-size: 2em; color: $m-font; margin-bottom: 10vh;}
 
      //mysql will be here
-    #tech-spec{display:flex; flex-wrap: wrap;
+    #tech-spec {
+        // display:flex; flex-wrap: wrap;
                 margin: 2%;
                 
 
-        .feature{width:350px;
+        .feature{width: 600px;
                  height: 250px;
                  color: $m-white;
                  margin: 0.5%;
