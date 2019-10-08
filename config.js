@@ -3,6 +3,6 @@ const config = {
     upass: "root", 
     port: 8889,
     host: "localhost",
-    db: "bizcard"
+    db: "homeSecure_Features"
 }
 module.exports = config;

@@ -15,32 +15,24 @@ app.set('views', path.join( __dirname + "/views"));
 
 
 app.get('/', (req, res) => {
-  res.render('home', { homemessage: "hey there", bio: "some generic bio info" })
+  res.render('home', { specs: "Wanna know my specs?", information: "working!" })
 })
 
-app.get('/user', (req, res) => {
-  // get user data when he hit this route
-
-  //try a connections
-  // if the connection fails, log error(s) to the console and quit
+app.get('/', (req, res) => {
   sql.getConnection((err, connection) => {
     if (err) {
       return console.log(err.message);
     }
 
-    let query = "SELECT * FROM tbl_card";
+    let query = "SELECT * FROM tbl_specs";
 
     sql.query(query, (err, rows) => {
-      // we're done with our DB connections, so let soneone else
       connection.release();
 
-      // if something broke, quit and show ab error message
       if (err) { return console.log (err.message); }
-
-      // show me the data!
       console.log(rows);
 
-      res.render('user', rows[0]);
+      res.render('user', rows[7]);
     })
   })
 
