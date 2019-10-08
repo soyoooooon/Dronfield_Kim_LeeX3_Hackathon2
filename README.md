@@ -1,4 +1,4 @@
-![OurLogoImage](images/logo-full "Logo")
+![OurLogoImage](images/logo-full.svg "Logo")
 # HouseCom ThermoSecurity System
 
 One-page, interactive product app featuring the HouseCom ThermoSecurity System.
