@@ -1,11 +1,7 @@
 @import '_vars';
 
 
-.wrapper {
-    margin: 0 auto; 
-    max-width: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+.wrapper {margin: 0 auto; max-width: 100%; font-family: 'Roboto Condensed', sans-serif;}
 
 //Mobile first
 @media screen and (max-width: 575px) {
@@ -16,9 +12,9 @@
 
 
 #video{
-max-width: 100%; height: 211px;
+max-width: 100%; height: 100%;
 
-img {width: 100%; height: 211px;}
+video{width: 100%; height: 100%;}
 
 }
 
@@ -71,7 +67,7 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
             
             //mysql will be here
             #tech-spec{display:flex; flex-direction: column;
-                       margin: 2%;
+                       margin: 5%;
                        
             
                .feature{width:350px;
@@ -79,8 +75,10 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
                         color: $m-white;
                    img{width: 51px; height: 51px;}
                    h2{font-size: 20px;
-                       color: $m-font;}
-                p{font-size: 17px; color: $m-font;}
+                       color: $m-font;
+                    margin-top: -10vh;
+                    margin-left: 30%;}
+                p{font-size: 17px; color: $m-font;  padding-top:10vh; margin-left: 30%;}
                }
             
                .sensors{width:350px;
@@ -89,9 +87,10 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
               img{width: 51px; height: 51px;}
               h2{font-size: 20px;
                   color: $m-font;
-                  margin-top: -150px;}
-               p{font-size: 17px; color: $m-font;}
-               }
+                  margin-top: -10vh;
+                  margin-left: 30%;}}
+               p{font-size: 17px; color: $m-font; padding-top:10vh; margin-left: 30%;}
+               
             
                .language{width:350px;
                height: 250px;
@@ -99,8 +98,9 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
                img{width: 51px; height: 51px;}
                h2{font-size: 20px;
                color: $m-font;
-               margin-top: -150px;}
-               p{font-size: 17px; color: $m-font;}
+               margin-top: -10vh;
+               margin-left: 30%;}
+               p{font-size: 17px; color: $m-font;  padding-top:10vh;  margin-left: 30%;}
                }
             
             
@@ -108,22 +108,22 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
                height: 250px;
                color: $m-white;
                img{width: 51px; height: 51px;}
-               h2{font-size: 20px;
-               color: $m-font;
-               margin-top: -150px;}
-               p{font-size: 17px; color: $m-font;}
+               h2{font-size: 20px;color: $m-font;
+                margin-top: -10vh;
+                margin-left: 30%;}
+               p{font-size: 17px; color: $m-font;  padding-top:10vh;}
                }
             
             
                .wireless{width:350px;
                height: 250px;
-               margin: 1.5%;
               color: $m-white;
               img{width: 51px; height: 51px;}
               h2{font-size: 20px;
               color: $m-font;
-              margin-top: -150px;}
-              p{font-size: 17px; color: $m-font;}
+              margin-top: -10vh;
+              margin-left: 30%;}
+              p{font-size: 17px; color: $m-font;  padding-top:10vh;}
               }
             
             }//tech section
@@ -140,9 +140,11 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
 
 
     #video{
-        max-width: 100%; height: 432px;
+        max-width: 100%; height: 100%;
         
-        img {width: 100%; height: 432px;} }
+        video{width: 100%; height: 100%;}
+        
+        }
         
      #product{
         background-color: $m-grey;
@@ -157,101 +159,101 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
         }
         //product section ends
 
-        #for-web {display: flex; flex-direction: row; width: 100%;
+        #for-web {display: flex; flex-direction: row; width: 100%; height: 100%;}
 
-            .img-sec{ width: 50%; height: 384px; 
-                img { width: 100%; height: 100%;}}
+        .img-sec{ width: 50%; height: 50%;}
+            img { width: 100%; height: 100%;}
      
+    
+        .pro-sec{background-color: $m-white; width: 50%;}
         
-            .pro-sec{background-color: $m-white; width: 50%;
-            
-            h2{font-size: 35px; line-height: 70px; color:$m-font; text-align: center; margin-top: 133px;}
-            p{font-size: 21px; line-height: 25px; color:$m-font; text-align: center;  margin-top: 41px; margin-bottom: 104px;}
-        }}
-
+        h2{font-size: 50px; line-height: 70px; color:$m-font; text-align: center; padding-top:15vh;}
+        p{font-size: 21px; line-height: 25px; color:$m-font; text-align: center; padding-top:5vh;}
+        // for-web section ends//
 
     #contact{display: flex; flex-direction: row; width: 100%; height:100%;}
     
-    .cont-info{ background-color: $m-white; width: 50%;}
-        h2{font-size: 40px; line-height: 50px; color:$m-font; text-align: center; padding-top:20vh;}
-        p{font-size: 30px; line-height: 45px; color:$m-font; text-align: center; padding:3vh;} 
-            
-                .cont-img{ width: 50%; height: 50%;}
-                    img { width: 100%; height: 100%;}
+        .cont-info{ background-color: $m-white; width: 50%;}
+            h2{font-size: 2.5em; line-height: 50px; color:$m-font; text-align: center; padding-top:15vh;}
+            p{font-size: 1.2em; line-height: 30px; color:$m-font; text-align: center; padding:3vh;} 
+                
+                    .cont-img{ width: 50%; height: 50%;}
+                        img { width: 100%; height: 100%;}
 
+ // easy-section 
+    #easy-to{display:flex; flex-direction: row; width: 100%; height: 100%;
+                .easy-text{width: 50%;}
+                h2{font-size: 2.5em; color:black; margin-top:-10vh;}
+                p{font-size: 1em; color:$m-font; line-height: 30px;}
+                .easy-text img{width: 50%;}
+        }
 
-#easy-to{display:flex; flex-direction: row; width: 100%; height: 100%;
-        .easy-text{width: 50%;}
-            h2{font-size: 2em; color:black;}
-            p{font-size: 25px; color:$m-font; line-height: 30px;}
-        .easy-text img{width: 60%;}
-}
+        .tech-h2{font-size: 2em; color: $m-font; margin-bottom: 10vh;}
 
-.tech-h2{font-size: 2em; color: $m-font; margin-bottom: 10vh;}
+     //mysql will be here
+    #tech-spec {
+         display:flex; flex-wrap: wrap;
+                margin: 1%;
+                
 
-//mysql will be here
-#tech-spec{display:flex; flex-wrap: wrap;
-           margin: 2%;
-           
+        .feature{width: 600px;
+                 height: 250px;
+                 color: $m-white;
+                 margin: 0.5%;
+            img{width: 51px; height: 51px;}
+            h2{font-size: 20px;
+                color: $m-font;
+                margin-top: -100px;}
+         p{font-size: 17px; color: $m-font;}
+        }
 
-   .feature{width:350px;
+        .sensors{width:350px;
             height: 250px;
             color: $m-white;
             margin: 0.5%;
        img{width: 51px; height: 51px;}
        h2{font-size: 20px;
            color: $m-font;
-           margin-top: -150px;}
-    p{font-size: 17px; color: $m-font;}
-   }
+           margin-top: -100px;}
+        p{font-size: 17px; color: $m-font;}
+        }
 
-   .sensors{width:350px;
-       height: 250px;
+        .language{width:350px;
+        height: 250px;
+        color: $m-white;
+        margin: 0.5%;
+        img{width: 51px; height: 51px;}
+        h2{font-size: 20px;
+        color: $m-font;
+        margin-top: -100px;}
+        p{font-size: 17px; color: $m-font;}
+        }
+
+
+        .colour{width:350px;
+        height: 250px;
+        color: $m-white;
+        margin: 1.5%;
+        img{width: 51px; height: 51px;}
+        h2{font-size: 20px;
+        color: $m-font;
+        margin-top: -100px;}
+        p{font-size: 17px; color: $m-font;}
+        }
+
+
+        .wireless{width:350px;
+        height: 250px;
+        margin: 1.5%;
        color: $m-white;
-       margin: 0.5%;
-  img{width: 51px; height: 51px;}
-  h2{font-size: 20px;
-      color: $m-font;
-      margin-top: -150px;}
-   p{font-size: 17px; color: $m-font;}
-   }
+       img{width: 51px; height: 51px;}
+       h2{font-size: 20px;
+       color: $m-font;
+       margin-top: -100px;}
+       p{font-size: 17px; color: $m-font;}
+       }
 
-   .language{width:350px;
-   height: 250px;
-   color: $m-white;
-   margin: 0.5%;
-   img{width: 51px; height: 51px;}
-   h2{font-size: 20px;
-   color: $m-font;
-   margin-top: -150px;}
-   p{font-size: 17px; color: $m-font;}
-   }
-
-
-   .colour{width:350px;
-   height: 250px;
-   color: $m-white;
-   margin: 1.5%;
-   img{width: 51px; height: 51px;}
-   h2{font-size: 20px;
-   color: $m-font;
-   margin-top: -150px;}
-   p{font-size: 17px; color: $m-font;}
-   }
-
-
-   .wireless{width:350px;
-   height: 250px;
-   margin: 1.5%;
-  color: $m-white;
-  img{width: 51px; height: 51px;}
-  h2{font-size: 20px;
-  color: $m-font;
-  margin-top: -150px;}
-  p{font-size: 17px; color: $m-font;}
-  }
-
-}//tech section
+    }//tech section
 
 @import 'modules/_footer.scss';
         
@@ -264,10 +266,11 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
 
 
     #video{
-        max-width: 100%; height: 720px;
-        video{width: 100%;}
+        max-width: 100%; height: 100%;
         
-        img {width: 100%; height: 720px;}}
+        video{width: 100%; height: 100%;}
+        
+        }
         
     #product{
         background-color: #c6c6c6;
@@ -303,7 +306,7 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
                     .cont-img{ width: 50%; height: 50%;}
                         img { width: 100%; height: 100%;}
 
- // easy-section 마진이 떠요 이것좀 봐줄래요? 
+ // easy-section 
     #easy-to{display:flex; flex-direction: row; width: 100%; height: 100%;
                 .easy-text{width: 40%;}
                 h2{font-size: 3em; color:black; margin-top:-10vh;}
@@ -315,7 +318,7 @@ p {color: $m-font; font-size: 1.5em; text-align: center; padding-bottom: 12vh;}
 
      //mysql will be here
     #tech-spec {
-        display:flex; flex-wrap: wrap;
+         display:flex; flex-wrap: wrap;
                 margin: 2%;
                 
 
