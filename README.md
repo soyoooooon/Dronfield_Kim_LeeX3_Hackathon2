@@ -25,37 +25,58 @@ Clone this to the location of your choice, open in your favourite editor and hac
 
 ## Features
 Height: 14cm
+
 Weight: 180g
+
 Thickness: 2cm
+
 Screen Wideness: 15cm
+
 Screen Weight: 80g
+
 Display: 12 X 6cm
+
 Materials: Plastic and glass
 
 ## Sensors
 Time
+
 Dates
+
 Temperature
+
 Humidity
+
 Occupancy
+
 Ambient light
 
 ## Language
 
 English
+
 French
+
 Korean
+
 Spanish
+
 Indian
 
 ## Color 
+
 White, Black
+
 Mat Black, Black
+
 Grey, Black
 
 ## Wireless
+
 802.11 a/b/g/n (2.4 GHz/ 5 GHz) Wi-Fi
+
 802.15.4(2.4GHz)
+
 Bluetooth
 
 
@@ -73,7 +94,7 @@ First Version Created October 7, 2019.
 
 4. [Soyoon Lee](s_lee77176@fanshaweonline.ca) - Front End Dev
 
-5 [Sujin Lee](s_lee39@fanshaweonline.ca) - Video / Motion
+ 5 [Sujin Lee](s_lee39@fanshaweonline.ca) - Video / Motion
 
 
 
