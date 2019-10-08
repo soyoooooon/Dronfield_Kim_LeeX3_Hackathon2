@@ -1,15 +1,5 @@
 @import '_vars';
 
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../public/css/Roboto-Regular.woff"),
-            ("../public/css/Roboto-Regular.woff2");
-        }
-
-
-h2 {
-  color: blueviolet;
-}  
+.wrapper {margin: 0 auto; max-width: 100%;}
 
 
