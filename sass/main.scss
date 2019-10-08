@@ -7,8 +7,9 @@
             ("../public/css/Roboto-Regular.woff2");
         }
 
-main {margin: 0 auto;
+.wrapper {margin: 0 auto; max-width: 100%;}
 
-  h2{color: blueviolet;}  
-}
+@import '_navbar.scss'
+
+
 
